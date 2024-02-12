@@ -39,7 +39,13 @@ ul {
 
 /* Title */
 
-h1 {
+.title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.main h1 {
   font-size: 48px;
   font-weight: bolder;
   color: #f9faf8;
@@ -48,7 +54,31 @@ h1 {
 }
 
 .titleText {
-  
+  color: #e5e7eb;
+  font-size: 18px;
+  margin-left: 150px;
+}
+
+.sign-up {
+  padding: 5px 25px;
+  background-color: #3882f6;
+  border-radius: 5px;
+  border: solid transparent;
+  color: white;
+  margin-left: 150px;
+  margin-top: 10px;
+  margin-bottom: 150px;
+}
+
+.img-placeholder {
+  margin-right: 150px;
+  color: #e5e7eb;
+  width: 1350px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #6d747d;
 }
 
 /* Info */

@@ -85,6 +85,45 @@ ul {
 
 .info {
   background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+}
+
+.boxes {
+  display: flex;
+  gap: 50px;
+  margin-bottom: 100px;
+}
+
+.randinfo {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+  margin-top: 35px;
+}
+
+.randdiv {
+  align-self: center;
+}
+
+.infobox {
+  display: flex;
+  flex-direction: column;
+}
+
+.infotext {
+  text-align: center;
+  width: 150px;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  border: solid #3882f6;
+  border-radius: 15px;
 }
 
 /* Call to action */

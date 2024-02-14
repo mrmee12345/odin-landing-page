@@ -136,6 +136,20 @@ ul {
 
 .quote {
   background-color: #e5e7eb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 150px 350px;
+}
+
+.quotebox {
+  display: flex;
+  flex-direction: column;
+}
+
+.thor {
+  align-self: flex-end;
+  font-weight: bold;
 }
 
 .quoteText {

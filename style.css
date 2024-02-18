@@ -126,12 +126,6 @@ ul {
   border-radius: 15px;
 }
 
-/* Call to action */
-
-.call {
-  background-color: #ffffff;
-}
-
 /* Quote */
 
 .quote {
@@ -159,6 +153,48 @@ ul {
   color: #1f2937;
 }
 
+/* Call to action */
+
+.call {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 150px;
+}
+
+.call-to-action {
+  background-color: #3882f6;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 75px;
+  color: #e5e7eb;
+  font-size: 18px;
+  width: 780px;
+}
+
+.callText {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.call-to-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.callButton {
+  align-self: center;
+  border: solid transparent;
+  border-color: white;
+  border-radius: 5px;
+  background-color: #3882f6;
+  color: white;
+  padding: 5px 20px;
+  border-width: 1px;
+}
+
 /* Footer */
 
 footer {
@@ -166,4 +202,5 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 40px;
 }
